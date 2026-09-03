@@ -26,7 +26,7 @@ int main (){
         cin >> age;
 
         if (!(age >= 18)){
-            cout << "Sorry you're under age you cannot enter this site.";
+            cout << "Sorry you're under age you cannot enter this site." << std::endl;
         }else  if (age >= 18){
             cout << "Welcome to Computer Geeks Site " << name << std::endl;
         }else cout << "Invalid Input";
@@ -36,4 +36,4 @@ int main (){
     (user == "Aizel" && password == "password") ? cout << "Valid \n" : cout << "Invalid \n";
 
     return 0;
-}
+} 
